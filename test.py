@@ -17,6 +17,6 @@ if __name__ == '__main__':
 
   #
     app.add_handler(CommandHandler('list',list_command))
-
+    print("")
     print("polling")
     app.run_polling()
